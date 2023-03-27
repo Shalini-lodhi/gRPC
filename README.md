@@ -2,7 +2,21 @@
 General Purpose Remote Procedure Call
 
 ## Protocol Buffers
-#### Evaluation of Data
+[Official Documentation](https://protobuf.dev/overview/#:~:text=Protocol%20buffers%20are%20ideal%20for,gRPC%29%20and%20for%20data%20storage.)
+
+Protocol Buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.
+
+Some of the advantages of using protocol buffers include:
+
+-   Compact data storage
+-   Fast parsing
+-   Availability in many programming languages
+-   Optimized functionality through automatically-generated classes
+
+![](https://protobuf.dev/images/protocol-buffers-concepts.png)
+
+
+### Evaluation of Data
  1. **Comma Separated Values (CSV)**
 A plain text file that stores data by delimiting data entries with commas.
 ex.
@@ -96,5 +110,17 @@ message Polyline {
 |Schema can evolve over time, in a safe manner(**Schema Evolution**)|
 |3-10x smaller, 20-100x faster than XML|
 |Code is generated for you automatically|
+
+## How Protocol Buffer used?
+ Protocol buffers are ideal for any situation in which you need to serialize structured, record-like, typed data in a language-neutral, platform-neutral, extensible manner. They are most often used for defining communications protocols (together with gRPC) and for data storage.
+
+Some of the advantages of using protocol buffers include:
+
+-   Compact data storage
+-   Fast parsing
+-   Availability in many programming languages
+-   Optimized functionality through automatically-generated classes
+
+![](https://protobuf.dev/images/protocol-buffers-concepts.png)
 
 
